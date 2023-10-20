@@ -18,7 +18,7 @@ class CartItemDesign extends StatelessWidget {
     return InkWell(
       child: Padding(
         padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
-        child: Container(
+        child: SizedBox(
           height: 120,
           width: double.infinity,
           child: Card(

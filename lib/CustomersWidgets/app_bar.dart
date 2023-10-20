@@ -8,7 +8,7 @@ class MyAppBar extends StatefulWidget implements PreferredSizeWidget {
   final PreferredSizeWidget? bottom;
   final String? sellersUID;
 
-  MyAppBar({this.bottom, this.sellersUID});
+  const MyAppBar({super.key, this.bottom, this.sellersUID});
 
   @override
   _MyAppBarState createState() => _MyAppBarState();
@@ -45,7 +45,7 @@ class _MyAppBarState extends State<MyAppBar> {
           Navigator.pop(context);
         },
       ),
-      title: Text(
+      title: const Text(
         "Food2Go",
         style: TextStyle(fontSize: 45, fontFamily: "Poppins"),
       ),

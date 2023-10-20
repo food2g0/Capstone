@@ -57,20 +57,20 @@ class Menus
   Map<String, dynamic> toJson()
   {
     final Map<String, dynamic> data = Map<String, dynamic>();
-    data["menuID"] = this.menuID;
-    data["menuTitle"] = this.menuTitle;
-    data["sellerUID"] = this.sellersUID;
-    data["productsID"] = this.productsID;
-    data["productTitle"] = this.productTitle;
-    data["productDescription"] = this.productDescription;
-    data["productPrice"] = this.productPrice;
-    data["productQuantity"] = this.productQuantity;
-    data["publishedDate"] = this.publishedDate;
-    data["thumbnailUrl"] = this.thumbnailUrl;
-    data["status"] = this.status;
-    data["sellersImageUrl"] = this.sellersImageUrl;
-    data["sellersName"] = this.sellersName;
-    data["sellersAddress"] = this.sellersAddress;
+    data["menuID"] = menuID;
+    data["menuTitle"] = menuTitle;
+    data["sellerUID"] = sellersUID;
+    data["productsID"] = productsID;
+    data["productTitle"] = productTitle;
+    data["productDescription"] = productDescription;
+    data["productPrice"] = productPrice;
+    data["productQuantity"] = productQuantity;
+    data["publishedDate"] = publishedDate;
+    data["thumbnailUrl"] = thumbnailUrl;
+    data["status"] = status;
+    data["sellersImageUrl"] = sellersImageUrl;
+    data["sellersName"] = sellersName;
+    data["sellersAddress"] = sellersAddress;
 
     return data;
   }

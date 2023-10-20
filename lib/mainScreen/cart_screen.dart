@@ -135,7 +135,7 @@ class _CartScreenState extends State<CartScreen> {
                       }
 
                       if (snapshot.data!.docs.length - 1 == index) {
-                        WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
+                        WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
                           Provider.of<TotalAmount>(context, listen: false).displayTotalAmount(totalAmount.toDouble());
                         });
                       }
